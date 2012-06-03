@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+}
+
+body,html {
+	height:100%;
+	min-height:100%;
+}
+
+div {
+	display: block;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	height: 100%;
+	width: 100%;
+	background-color: #cdffd5;
+}
+
+.thumbnails {
+	border: 3px solid #A9FF7A;
+}
+
+#container {
+	text-align: center;
+	height: 100%;
+}
+
+#chronicle {
+	min-height: 100%;
+	/*height: auto !important;*/
+	height: 100%;
+	margin: 0 auto -5em;
+}
+
+#header {
+	/*background-color: #000099;*/
+	background-color: #A9FF7A;
+	/*height: 5em;*/
+	padding: 1em;
+	font-size: 2em;
+}
+
+#maps {
+	height: 5em;
+}
+
+#chronicle-container {
+        height: 100%;
+        min-height: 100%;
+	margin: 0 auto -1em;
+	/*float: left;*/
+}
+
+/*
+.left-entries {
+	text-align: left;
+	float: left;
+}
+
+.right-entries {
+	text-align: right;
+	float: right;
+}
+*/
+
+.box {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*border: 1px solid black;*/
+	/*float: left;*/
+}
+
+.chronicle-description {
+	text-align: center;
+	padding: 10px
+}
+
+#hbar {
+	float: left;
+	position: absolute;
+	top: 3em;
+	right: 50%;
+	left: auto;
+	background-image: '';
+	margin: 0px;
+	height: 100%;
+	min-height: 100%;
+}
+
+#loading_image {
+	margin: 0px;
+	left: auto;
+	right: 50%;
+	position: absolute;
+	float: left;
+}
+
+.heading {
+}
+
+.timeline_container {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+.timeline {
+	margin: 0 auto;
+	/*background-color:#A9FF7A;*/
+	display: block;
+	height: 100%;
+	float: left;
+	width: 10px;
+	margin-top: 0px;
+	left: auto;
+	right: 50%;
+	position: absolute;
+}
+
+/*
+.timeline:hover {
+	cursor: pointer;
+	margin: 0 auto;
+}
+(/
+
+.timeline div.plus {
+	/*width: 14px;*/
+	height: 14px;
+	position: relative;
+	left: -6px;
+}
+
+.rightCorner {
+	background-image: url("images/right.png");
+	display: block;
+	height: 15px;
+	margin-left: 408px;
+	margin-top: 8px;
+	padding: 0;
+	vertical-align: top;
+	/*width: 13px;*/
+	z-index:2;
+	position: absolute;
+}
+
+.leftCorner{
+	background-image: url("images/left.png");
+	display: block;
+	height: 15px;
+	/*width: 13px;*/
+	margin-left: -13px;
+	margin-top: 8px;
+	position: absolute;
+	z-index:2;
+}
+
+/*
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}
+*/
